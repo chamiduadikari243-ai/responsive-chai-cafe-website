@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Web Site </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+   <!--Navbar-->
+   <header>
+     <a href="#" class="logo">
+         <img src="img/logo.png" alt="">
+     </a>
+     <!--Menu Icon-->
+     <i class="fa-solid fa-bars" id="menu-icon"></i>
+     <!--Links-->
+     <ul class="navbar">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="products.html">Products</a></li>
+         <li><a href="reviews.html">Reviews</a></li>
+         <li><a href="contact.html"class="active">Contact</a></li>
+     </ul>
+     <!--Icons-->
+     <div class="header-icon">
+         <i class="fa-solid fa-cart-arrow-down"></i>
+         <i class="fa-solid fa-magnifying-glass" id="Search-icon"></i>
+     </div>
+
+     <!--search box-->
+     <div class="search-box">
+         <input type="search" placeholder="Search Here">
+     </div>
+   </header>
+
+   <!--contact-path-->
+   <section class="contact-path">
+    <div class="contact-banner">
+        <h1>Contact us</h1>
+        <p>We'd love to hear from you</p>
+    </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact-section">
+    <div class="contact-container">
+        
+        <div class="contact-info">
+            <div class="info-group">
+                <h3>Address</h3>
+                <p>Chai cafe Pvt Ltd,<br>No:30<br>Negombo Road,<br>Dhankotuwa</p>
+            </div>
+
+            <div class="info-group">
+                <h3>Contact Info</h3>
+                <p><i class="fa-solid fa-phone"></i> +94 31 678 4573</p>
+                <p><i class="fa-solid fa-phone"></i> +94 77 219 6290</p>
+                <p><i class="fa-solid fa-phone"></i> +94 77 457 9735</p>
+                <p><i class="fa-regular fa-envelope"></i>Coffee@shop.com</p>
+            </div>
+
+            <div class="info-group">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <h2>Please submit your feedback and suggestions and we will get back to you.</h2>
+            <p class="form-subtext">This information will be valuable in serving you better next time!</p>
+
+            <form class="actual-form">
+                <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+   <!--Footer Section-->
+   <section class="footer">
+     <div class="footer-box">
+         <h3>Coffee Shop</h3>
+          <p>Crafting the perfect coffee experience every single day. We bring you premium quality 
+            beans, expert brewing, and a cozy atmosphere to fuel your passion.
+        </p>
+
+           <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+       </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Products</a></li>
+         </div>
+
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Our Branches</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class="fa-solid fa-map"></i>No:30,Negombo Road,Dhankotuwa</span>
+                <span><i class="fa-solid fa-phone"></i>+94772196290</span>
+                <span><i class="fa-regular fa-envelope"></i>Coffee@shop.com</span>
+            </div>
+        </div>  
+   </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

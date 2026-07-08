@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop | Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+     <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Coffee Logo">
+     </a>
+     <!--Menu Icon-->
+     <i class="fa-solid fa-bars" id="menu-icon"></i>
+     <!--Links-->
+     <ul class="navbar">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="products.html" class="active">Products</a></li>
+         <li><a href="reviews.html">Reviews</a></li>
+         <li><a href="contact.html">Contact</a></li>
+     </ul>
+     <!--Icons-->
+     <div class="header-icon">
+         <i class="fa-solid fa-cart-arrow-down"></i>
+         <i class="fa-solid fa-magnifying-glass" id="Search-icon"></i>
+     </div>
+
+     <!--search box-->
+     <div class="search-box">
+        <input type="search" placeholder="Search Here">
+     </div>
+  </header>
+
+<!--HERO-->
+<div class="page-title">
+    <h1>Our Popular Menu</h1>
+    <p>Freshly brewed coffee and delicious bakery items prepared every day.....</p>
+</div>
+
+<!--CATEGORY-->
+<section class="category-section">
+    <div class="category-tabs">
+        <a href="#all">All Menu</a>
+        <a href="#hot">Hot Beverage</a>
+        <a href="#cold">Cold Beverage</a>
+        <a href="#milkshake">Milk Shake</a>
+        <a href="#dessert">Desserts</a>
+        <a href="#short">Short Eats</a>
+    </div>
+</section>
+
+<!--ALL PRODUCTS-->
+<section class="products" id="all">
+    <h2 class="section-title">All Menu</h2>
+    <div class="product-container">
+        <div class="box">
+            <img src="img/Espresso.jpg" alt="">
+            <h3>Espresso</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Espresso...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/americano.jpg" alt="">
+            <h3>Americano</h3>
+            <div class="content">
+                <span>Rs.380/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Americano...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cappuccino.jpg" alt="">
+            <h3>Cappuccino</h3>
+            <div class="content">
+                <span>Rs.370/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cappuccino...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cafe mocha.jpg" alt="">
+            <h3>Cafe Mocha</h3>
+            <div class="content">
+                <span>Rs.450/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cafe Mocha...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/masala tea.jpg" alt="">
+            <h3>Masala Tea</h3>
+            <div class="content">
+                <span>Rs.300/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Masala Tea...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chai latte.jpg" alt="">
+            <h3>Chai Latte</h3>
+            <div class="content">
+                <span>Rs.360/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chai Latte...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/ice coffee.jpg" alt="">
+            <h3>Ice Coffee</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Ice Coffee...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/ice mocha.jpg" alt="">
+            <h3>Ice Mocha</h3>
+            <div class="content">
+                <span>Rs.350/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Ice Mocha...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chocolate milk shake.jpg" alt="">
+            <h3>Chocolate Milk Shake</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/vanilla milkshake.jpg" alt="">
+            <h3>Vanilla Milk Shake</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Vanilla Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/strawberry milkshake.webp" alt="">
+            <h3>Strawberry Milk Shake</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Strawberry Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/carrot cake.jpg" alt="">
+            <h3>Carrot Cake</h3>
+            <div class="content">
+                <span>Rs.450/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Carrot Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cheese cake.jpg" alt="">
+            <h3>Cheese Cake</h3>
+            <div class="content">
+                <span>Rs.400/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cheese Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chocolate cake.jpg" alt="">
+            <h3>Chocolate Cake</h3>
+            <div class="content">
+                <span>Rs.350/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chocolate biscuit pudding.jpg" alt="">
+            <h3>Chocolate Biscuit Pudding</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Biscuit Pudding...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+         <div class="box">
+            <img src="img/sandwiche.jpg" alt="">
+            <h3>Sandwich</h3>
+            <div class="content">
+                <span>Rs.150/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Sandwich...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/burgers.jpg" alt="">
+            <h3>Burger</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Burger...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--HOT BEVERAGES-->
+<section class="products" id="hot">
+    <h2 class="section-title">Hot Beverages</h2>
+    <div class="product-container">
+        <div class="box">
+            <img src="img/Espresso.jpg">
+            <h3>Espresso</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Espresso...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/americano.jpg">
+            <h3>Americano</h3>
+            <div class="content">
+                <span>Rs.380/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Americano...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cappuccino.jpg">
+            <h3>Cappuccino</h3>
+            <div class="content">
+                <span>Rs.370/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cappuccino...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cafe mocha.jpg">
+            <h3>Cafe Mocha</h3>
+            <div class="content">
+                <span>Rs.450/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cafe Mocha...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/masala tea.jpg">
+            <h3>Masala Tea</h3>
+            <div class="content">
+                <span>Rs.300/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Masala Tea...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chai latte.jpg">
+            <h3>Chai Latte</h3>
+            <div class="content">
+                <span>Rs.360/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chai Latte...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--COLD BEVERAGES-->
+<section class="products" id="cold">
+    <h2 class="section-title">Cold Beverages</h2>
+    <div class="product-container">
+         <div class="box">
+            <img src="img/ice coffee.jpg" alt="">
+            <h3>Ice Coffee</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Ice Coffee...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/ice mocha.jpg" alt="">
+            <h3>Ice Mocha</h3>
+            <div class="content">
+                <span>Rs.350/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Ice Mocha...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!--MILK SHAKES-->
+<section class="products" id="milkshake">
+    <h2 class="section-title">Milk Shakes</h2>
+    <div class="product-container">
+        <div class="box">
+            <img src="img/chocolate milk shake.jpg" alt="">
+            <h3>Chocolate Milk Shake</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/vanilla milkshake.jpg" alt="">
+            <h3>Vanilla Milk Shake</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Vanilla Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/strawberry milkshake.webp" alt="">
+            <h3>Strawberry Milk Shake</h3>
+            <div class="content">
+                <span>Rs.250/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Strawberry Milk Shake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--DESSERTS-->
+<section class="products" id="dessert">
+    <h2 class="section-title">Desserts</h2>
+    <div class="product-container">
+        <div class="box">
+            <img src="img/carrot cake.jpg">
+            <h3>Carrot Cake</h3>
+            <div class="content">
+                <span>Rs.450/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Carrot Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/cheese cake.jpg">
+            <h3>Cheese Cake</h3>
+            <div class="content">
+                <span>Rs.400/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Cheese Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chocolate cake.jpg">
+            <h3>Chocolate Cake</h3>
+            <div class="content">
+                <span>Rs.350/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Cake...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/chocolate biscuit pudding.jpg">
+            <h3>Chocolate Biscuit Pudding</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Chocolate Biscuit Pudding...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--SHORT EATS-->
+<section class="products" id="short">
+    <h2 class="section-title">Short Eats</h2>
+    <div class="product-container">
+        <div class="box">
+            <img src="img/sandwiche.jpg">
+            <h3>Sandwich</h3>
+            <div class="content">
+                <span>Rs.150/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Sandwich...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/burgers.jpg">
+            <h3>Burger</h3>
+            <div class="content">
+                <span>Rs.200/=</span>
+                <a href="#" class="btn" onclick="alert('💳 Proceeding to payment for Burger...'); return 
+                false;">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="footer-box">
+        <h3>Coffee Shop</h3>
+        <p>Crafting the perfect coffee experience every day with premium coffee and fresh bakery items.</p>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+    </div>
+    <div class="footer-box">
+        <h3>Support</h3>
+        <a href="#">Products</a>
+        <a href="#">Help & Support</a>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms of Use</a>
+    </div>
+    <div class="footer-box">
+        <h3>Quick Links</h3>
+        <a href="about.html">About</a>
+        <a href="customers.html">Customers</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Our Branches</a>
+    </div>
+    <div class="footer-box">
+        <h3>Contact</h3>
+        <div class="contact">
+                <span><i class="fa-solid fa-map"></i>No:30,Negombo Road,Dhankotuwa</span>
+                <span><i class="fa-solid fa-phone"></i>+94772196290</span>
+                <span><i class="fa-regular fa-envelope"></i>Coffee@shop.com</span>
+        </div>
+     </div>   
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
