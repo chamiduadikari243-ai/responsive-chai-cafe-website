@@ -176,6 +176,7 @@ header{
     background: #f0d3ac;
     padding: 60px 20px;
     text-align: center;
+    overflow: hidden;
 }
 .img-group{
     display: flex;
@@ -426,7 +427,7 @@ section{
 .page-start {
     margin-top: 80px;
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     background-image: url('img/cou.webp');
     background-size: cover;
     background-position: center;
@@ -438,7 +439,7 @@ section{
     text-align:left;
     padding:50px 8%;
 }
-.page-start h1.page-start {
+.page-start h1.page-title-text {
     font-size: 42px ;
     color: #ffba3a; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -449,9 +450,13 @@ section{
     background-image: none;
 }
 .page-subtitle {
-    text-align: left;
+    text-align: center;
     color: #777;
-    margin-bottom: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
 }
 .rating-overview {
     display: flex;
@@ -809,18 +814,52 @@ section{
     .home-text p {
         font-size: 1rem;
     }
+    .img-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 20px
+    }
     .mid-img{
-        width:250px;
+        width:50%;
         height:auto;
-        margin:0;
-        border-radius: 30px;
+        border-radius: 20px;
+        z-index: 90;
     }
     .side-img{
-        width:150px;
+        width:30%;
         height:auto;
-        margin:0;
-        border-radius: 30px;
-        margin: 0px -10px;
+        border-radius: 15px;
+        margin: 0px -20px;
+        z-index: 1;
+    }
+    .stat-dese p {
+        font-size: 0.95rem !important;
+        padding: 0 15px 20px 15px !important;
+        line-height: 1.5;
+    }
+    .counters {
+        display: flex;
+        flex-direction: column; 
+        gap: 15px;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .counters .box {
+        width: 90%;
+        max-width: 300px;
+        padding: 15px;
+        margin: 0 auto !important;
+    }
+    .counters .box h3 {
+        font-size: 1.8rem !important;
+        margin: 5px 0 !important;
+    }
+    .counters .box p {
+        font-size: 0.75rem !important;
+        margin: 5px 0 !important;
     }
     .product-container, 
     .about-container, 
@@ -855,6 +894,11 @@ section{
         align-items: flex-start;
         text-align: left;
         padding: 30px 20px;
+    }
+    .page-subtitle{
+        font-size: 0.95rem;
+        margin-top: 20px;
+        padding: 0 15px;
     }
     .footer {
         grid-template-columns: 1fr !important; 
